@@ -1,2 +1,7 @@
-# netuitive-packages-aws-global
-A set of Netuitive analytics configurations, polices, dashboards, and reports that are global in scope across all AWS elements.
+#netuitive.packages.aws.global 1.0.0
+
+##Release History
+
+###Version 1.0.0
+
+* Initial production release of the package for global AWS configurations.

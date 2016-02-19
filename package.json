@@ -1,0 +1,28 @@
+{
+  "id" : "netuitive.packages.aws.global",
+  "version" : "1.0.0",
+  "manifest" : {
+    "name" : "AWS Global",
+    "description" : "A set of Netuitive analytics configurations, polices, dashboards, and reports that are global in scope across all AWS elements.",
+    "author" : {
+      "name" : "Netuitive Research",
+      "email" : "research@netuitive.com"
+    },
+    "distro" : {
+      "logo" : "http://assets.app.netuitive.com/pkg/logo/netuitive/banner_logo.png",
+      "download" : "https://github.com/netuitive-community-packages/netuitive-packages-aws-global/archive/master.zip"
+    },
+    "compatibility" : [ "AWS" ],
+    "tags" : [ ],
+    "checksum" : null
+  },
+  "policies" : [ ],
+  "analyticConfigurations" : [ ],
+  "dashboards" : [ {
+    "data" : {
+      "file" : "dashboards/aws.overview.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  } ]
+}
