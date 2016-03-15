@@ -1,8 +1,8 @@
 {
   "id" : "netuitive.packages.aws.global",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "manifest" : {
-    "name" : "AWS Global",
+    "name" : "Netuitive Packages AWS Global",
     "description" : "A set of Netuitive analytics configurations, polices, dashboards, and reports that are global in scope across all AWS elements.",
     "author" : {
       "name" : "Netuitive Research",
