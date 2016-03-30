@@ -1,6 +1,10 @@
-#netuitive.packages.aws.global 1.0.1
+#netuitive.packages.aws.global 1.1.0
 
 ##Release History
+
+###Version 1.1.0
+
+* Added rows for RDS and ASG to the Overview dashboard.
 
 ###Version 1.0.1
 
