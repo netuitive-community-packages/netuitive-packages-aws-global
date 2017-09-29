@@ -37,79 +37,6 @@
         "selectedTab" : "graph"
       }
     }, {
-      "id" : "db7a42a7-888e-479b-8f26-546ec5d7b966",
-      "name" : "RDS",
-      "description" : null,
-      "widgetType" : "metric-count-agg",
-      "properties" : {
-        "visualization" : null,
-        "showElementTotal" : "true",
-        "selectedAttributes" : "[]",
-        "elementScopeTags" : "[]",
-        "useElementNameContains" : "true",
-        "element_id" : null,
-        "elementScopeTypes" : "[\"RDS\"]",
-        "metricLimit" : "10",
-        "metricUnit" : null,
-        "metricAggs" : "[]",
-        "elementScopeIds" : "[]",
-        "elementScopeAttributes" : "[]",
-        "groupName" : null,
-        "elementNameContains" : null,
-        "showHighest" : "true",
-        "metric_fqn" : null,
-        "width" : "auto",
-        "metrics" : "[{\"fqn\":\"netuitive.aws.rds.overallutilization\",\"aggFns\":[],\"aggFn\":\"avg\"}]",
-        "selectedTab" : "table"
-      }
-    }, {
-      "id" : "b6b56f56-55fd-4346-bac9-ea15d83d707f",
-      "name" : "r",
-      "description" : null,
-      "widgetType" : "cpu-usage",
-      "properties" : {
-        "showElementTotal" : "true",
-        "selectedAttributes" : "[]",
-        "elementScopeTags" : "[]",
-        "useElementNameContains" : "true",
-        "element_id" : null,
-        "elementScopeTypes" : "[]",
-        "metricLimit" : "10",
-        "metricAggs" : "[]",
-        "elementScopeIds" : "[]",
-        "elementScopeAttributes" : "[]",
-        "showHighest" : "true",
-        "width" : "auto",
-        "metrics" : "[]",
-        "selectedTab" : "table"
-      }
-    }, {
-      "id" : "3e4ac5d6-f9f3-4b89-91fd-10c5cb355e6c",
-      "name" : "ASG Metric Aggregation",
-      "description" : null,
-      "widgetType" : "metric-count-agg",
-      "properties" : {
-        "visualization" : null,
-        "showElementTotal" : "true",
-        "selectedAttributes" : "[]",
-        "elementScopeTags" : "[]",
-        "useElementNameContains" : "true",
-        "element_id" : null,
-        "elementScopeTypes" : "[\"ASG\"]",
-        "metricLimit" : "10",
-        "metricUnit" : null,
-        "metricAggs" : "[]",
-        "elementScopeIds" : "[]",
-        "elementScopeAttributes" : "[]",
-        "groupName" : null,
-        "elementNameContains" : null,
-        "showHighest" : "true",
-        "metric_fqn" : null,
-        "width" : "medium",
-        "metrics" : "[{\"fqn\":\"aws.ec2.cpuutilization\",\"aggFns\":[],\"aggFn\":\"avg\"},{\"fqn\":\"aws.ec2.networkin\",\"aggFns\":[],\"aggFn\":\"avg\"},{\"fqn\":\"aws.ec2.networkout\",\"aggFns\":[],\"aggFn\":\"avg\"}]",
-        "selectedTab" : "table"
-      }
-    }, {
       "id" : "29ab9251-dab5-44b4-a7f3-a53275c23e0d",
       "name" : "ELB - Highest Latency",
       "description" : null,
@@ -162,32 +89,6 @@
         "selectedTab" : "graph"
       }
     }, {
-      "id" : "410a6315-8831-493e-b6f1-27d351476b73",
-      "name" : "RDS - Highest Overall Utilization",
-      "description" : null,
-      "widgetType" : "high-low-metric",
-      "properties" : {
-        "visualization" : null,
-        "showElementTotal" : "true",
-        "selectedAttributes" : "[]",
-        "elementScopeTags" : "[]",
-        "useElementNameContains" : "true",
-        "element_id" : null,
-        "elementScopeTypes" : "[\"RDS\"]",
-        "metricLimit" : "5",
-        "metricUnit" : null,
-        "metricAggs" : "[]",
-        "elementScopeIds" : "[]",
-        "elementScopeAttributes" : "[]",
-        "groupName" : null,
-        "elementNameContains" : null,
-        "showHighest" : "true",
-        "metric_fqn" : "netuitive.aws.rds.overallutilization",
-        "width" : "auto",
-        "metrics" : "[]",
-        "selectedTab" : "graph"
-      }
-    }, {
       "id" : "200e6dd1-4f12-411a-a403-9003663900aa",
       "name" : "EBS - Highest IOPS Utilization ",
       "description" : null,
@@ -209,32 +110,6 @@
         "elementNameContains" : null,
         "showHighest" : "true",
         "metric_fqn" : "netuitive.aws.ebs.iopsutilization",
-        "width" : "auto",
-        "metrics" : "[]",
-        "selectedTab" : "graph"
-      }
-    }, {
-      "id" : "6c3071dc-5d06-4923-86ee-18c871f6a5bf",
-      "name" : "ELB - Highest Latency",
-      "description" : null,
-      "widgetType" : "high-low-metric",
-      "properties" : {
-        "visualization" : null,
-        "showElementTotal" : "true",
-        "selectedAttributes" : "[]",
-        "elementScopeTags" : "[]",
-        "useElementNameContains" : "true",
-        "element_id" : null,
-        "elementScopeTypes" : "[\"ELB\"]",
-        "metricLimit" : "5",
-        "metricUnit" : null,
-        "metricAggs" : "[]",
-        "elementScopeIds" : "[]",
-        "elementScopeAttributes" : "[]",
-        "groupName" : null,
-        "elementNameContains" : null,
-        "showHighest" : "true",
-        "metric_fqn" : "aws.elb.latency",
         "width" : "auto",
         "metrics" : "[]",
         "selectedTab" : "graph"
@@ -264,26 +139,6 @@
         "width" : "medium",
         "metrics" : "[]",
         "selectedTab" : "graph"
-      }
-    }, {
-      "id" : "3bc3dfd9-ea95-403b-a08e-749e1fb62542",
-      "name" : "rds",
-      "description" : null,
-      "widgetType" : "metric-count-agg",
-      "properties" : {
-        "showElementTotal" : "true",
-        "selectedAttributes" : "[]",
-        "elementScopeTags" : "[]",
-        "useElementNameContains" : "true",
-        "elementScopeTypes" : "[\"RDS\"]",
-        "metricLimit" : "10",
-        "metricAggs" : "[]",
-        "elementScopeIds" : "[]",
-        "elementScopeAttributes" : "[]",
-        "showHighest" : "true",
-        "width" : "auto",
-        "metrics" : "[{\"fqn\":\"netuitive.aws.rds.overallutilization\",\"aggFns\":[],\"aggFn\":\"avg\"}]",
-        "selectedTab" : "table"
       }
     }, {
       "id" : "b805b218-81ea-4e62-9f16-0a0c10a93328",
@@ -334,58 +189,6 @@
         "useAllElementScopeAttributes" : "true",
         "metricAgg" : "avg",
         "metrics" : "[]"
-      }
-    }, {
-      "id" : "83927be1-ae0a-40d0-8eb8-b3d9cb4d075a",
-      "name" : "RDS Metric Aggregation",
-      "description" : null,
-      "widgetType" : "metric-count-agg",
-      "properties" : {
-        "visualization" : null,
-        "showElementTotal" : "true",
-        "selectedAttributes" : "[]",
-        "elementScopeTags" : "[]",
-        "useElementNameContains" : "true",
-        "element_id" : null,
-        "elementScopeTypes" : "[\"RDS\"]",
-        "metricLimit" : "10",
-        "metricUnit" : null,
-        "metricAggs" : "[]",
-        "elementScopeIds" : "[]",
-        "elementScopeAttributes" : "[]",
-        "groupName" : null,
-        "elementNameContains" : null,
-        "showHighest" : "true",
-        "metric_fqn" : null,
-        "width" : "medium",
-        "metrics" : "[{\"fqn\":\"netuitive.aws.rds.overallutilization\",\"aggFns\":[],\"aggFn\":\"avg\"},{\"fqn\":\"netuitive.aws.rds.iopsutilization\",\"aggFns\":[],\"aggFn\":\"avg\"},{\"fqn\":\"netuitive.aws.rds.connectionutilizationpercent\",\"aggFns\":[],\"aggFn\":\"avg\"},{\"fqn\":\"netuitive.aws.rds.diskspacepercentused\",\"aggFns\":[],\"aggFn\":\"avg\"}]",
-        "selectedTab" : "table"
-      }
-    }, {
-      "id" : "74143710-bb3c-4706-95d4-92d3d113d899",
-      "name" : "RDS Metric Aggregation",
-      "description" : null,
-      "widgetType" : "metric-count-agg",
-      "properties" : {
-        "visualization" : null,
-        "showElementTotal" : "true",
-        "selectedAttributes" : "[]",
-        "elementScopeTags" : "[]",
-        "useElementNameContains" : "true",
-        "element_id" : null,
-        "elementScopeTypes" : "[\"RDS\"]",
-        "metricLimit" : "10",
-        "metricUnit" : null,
-        "metricAggs" : "[]",
-        "elementScopeIds" : "[]",
-        "elementScopeAttributes" : "[]",
-        "groupName" : null,
-        "elementNameContains" : null,
-        "showHighest" : "true",
-        "metric_fqn" : null,
-        "width" : "auto",
-        "metrics" : "[{\"fqn\":\"netuitive.aws.rds.overallutilization\",\"aggFns\":[],\"aggFn\":\"avg\"},{\"fqn\":\"netuitive.aws.rds.iopsutilization\",\"aggFns\":[],\"aggFn\":\"avg\"},{\"fqn\":\"netuitive.aws.rds.connectionutilizationpercent\",\"aggFns\":[],\"aggFn\":\"avg\"},{\"fqn\":\"aws.rds.cpuutilization\",\"aggFns\":[],\"aggFn\":\"avg\"}]",
-        "selectedTab" : "table"
       }
     } ],
     "type" : "DEFAULT",

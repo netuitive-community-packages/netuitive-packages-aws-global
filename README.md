@@ -7,6 +7,7 @@ For detailed information on this package, please refer to the [online documentat
 ### Version next
 
 * Updated summary dashboard for new widget configs
+* Purged vestigial widgets
 
 ### Version 1.2.0
 
