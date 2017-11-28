@@ -1,8 +1,13 @@
-# netuitive.packages.aws.global 1.2.0
+# netuitive.packages.aws.global
 
 For detailed information on this package, please refer to the [online documentation](https://help.netuitive.com/Content/Integrations/aws.htm).
 
 ## Release History
+
+### Version next
+
+* Updated summary dashboard for new widget configs
+* Purged vestigial widgets
 
 ### Version 1.2.0
 
