@@ -4,7 +4,7 @@ For detailed information on this package, please refer to the [online documentat
 
 ## Release History
 
-### Version next
+### Version 1.3.0
 
 * Updated summary dashboard for new widget configs
 * Purged vestigial widgets
